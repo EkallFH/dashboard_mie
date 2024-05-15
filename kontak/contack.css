@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+  background:  #e2c02724;
+  color: black;
+}
+
+  .judul h1{
+    color: #e2bf27;
+    z-index: 3;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 35%;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.isi {
+    background-color: #e2bf27;
+    position: absolute;
+    
+    width: 1000px;
+    height: 500px;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 25px;
+}
+
+.isi img {   
+    position: absolute;
+    z-index: 3;
+    margin-top: -50px;
+    margin-left: 900px;
+
+}
+
+.masdon {
+    position : absolute;
+    z-index: 2;
+    margin-top: 10%;
+    margin-left: 625px;
+  box-shadow: inset;
+}
+
+
+.container {
+  position: absolute;
+  width: 20%;
+  padding: 25px;
+  margin: 20px;
+  border-radius: 5px;
+  top: 15%;
+  left: 130px;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  height: 210px;
+  width: 420px;
+}
+
+.form-group button {
+  padding: 10px 50px;
+  background: #F44336;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-left: 150px;
+  margin-top: 7px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-group button:hover {
+  background: #7c2620;;
+}
+
+.des {
+  position: absolute;
+  color: black;
+  margin-top: 44%;
+  margin-left: 14%;
+  font-size: 12px;
+}
